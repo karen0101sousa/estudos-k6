@@ -18,7 +18,7 @@ export const options = {
 }
 
 export default function () {
-    const res = http.get('https://test.k6.io/' + (exec.scenario.iterationInTest === 1 ? 'foo' : ''));
+    const res = http.get('https://quickpizza.grafana.com/test.k6.io/' + (exec.scenario.iterationInTest === 1 ? 'foo' : ''));
 
     check(res, {
         'status is 200': (r) => r.status === 200,

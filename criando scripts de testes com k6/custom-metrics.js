@@ -14,7 +14,7 @@ export const options = {
 let myCounter = new Counter('my_counter');
 
 export default function () {
-    const res = http.get('https://test.k6.io/');
+    const res = http.get('https://quickpizza.grafana.com/test.k6.io/');
     myCounter.add(1);
     sleep(2);
 }
