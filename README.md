@@ -35,7 +35,6 @@ O objetivo deste projeto é documentar meu processo de aprendizagem sobre testes
 
 - ✅ **Métricas e organização**
   - Uso de `tags` para agrupamento e filtro de resultados
-  - Criação de **métricas customizadas** com `Trend`, `Counter`, `Gauge` e `Rate`
 
 - ✅ **Execução na nuvem e integração**
   - Rodando testes na nuvem com a plataforma da Grafana Labs
